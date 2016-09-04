@@ -33,6 +33,9 @@ sudo amixer sset PCM,0 90% && python /home/pi/sommentelefoon/quiz.py &
 
 Het eerste stuk van dit commando zet het volume op 90%.
 
+### Sommen inspreken
+Voor het inspreken van de 90 sommen heb ik een proefversie van Voxover (voor OS X) gebruikt, in combinatie met `ffmpeg`. Iets anders zal ook wel werken. Maar je mag ook gewoon mijn stem gebruiken.
+
 ### Starten
 Zet de raspberry aan (hij moest dus tot dit punt uit staan). Na ongeveer een minuut moet er nu een som door de hoorn klinken.
 
